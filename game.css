@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(48, 141, 45);
+  width: 100%;
+}
+#pow{
+  width: 50%;
+  align-content: center
+}
+
+img{
+  width: 200px;
+}
+
+
+#action hover{
+  margin: 5rem;
+}
+
+button:hover{
+  background-color: red;
+}
+
+.card-body{
+  margin:20px auto;
+  background-color: rgb(204, 216, 30);
+  border-radius: 300px;
+  color:rgb(209, 10, 10);
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#gamerOne-label{
+  background-position: left;
+
+}
+#gamerTwo-label{
+  background-position: right;
+}
