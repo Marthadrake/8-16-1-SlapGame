@@ -2,9 +2,12 @@ body{
   background-color: rgb(48, 141, 45);
   width: 100%;
 }
+
 #pow{
   width: 50%;
-  align-content: center
+  align-content: center;
+  padding-top: 1rem;
+  padding-bottom: 3rem
 }
 
 img{
@@ -30,11 +33,3 @@ button:hover{
   text-align: center;
 }
 
-
-#gamerOne-label{
-  background-position: left;
-
-}
-#gamerTwo-label{
-  background-position: right;
-}
