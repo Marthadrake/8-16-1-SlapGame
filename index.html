@@ -12,14 +12,7 @@
 </head>
 
 <body>
-  <div class="container-fuild">
-    <div class="row text-center">
-      <div class="col-12 ">
-        <h1>H-K-S GAME</h1>
-      </div>
-    </div>
-
-
+  <div class="container-fluid">
     <div class="row"></div>
     <div class="col-4 card-body">
       <div class="row">
@@ -46,20 +39,22 @@
   </div>
 
 
-  <div class="row align-content-center" id="attcks">
+  <div class="row align-content-center" id="attacks">
     <div class="offset-2 col-3">
-      <button onclick="increment">HIT<img id="hit"
+      <button onclick="hit()">
+        <p id="hit">HIT</p><img
           src="https://www.proko.com/wp-content/uploads/2017/06/how-to-draw-perfect-fists-bump-superhero-punch-front-facing-shaded.jpg"
           alt="">
       </button>
     </div>
     <div class=" col-2">
-      <button onclick="increment">KICK<img id="kick"
-          src="https://i.pinimg.com/474x/8b/98/1d/8b981d55c01b9b60e5d415bbb89326c5.jpg" alt="">
+      <button onclick="kick()">
+        <p id="kick">KICK</p><img src="https://i.pinimg.com/474x/8b/98/1d/8b981d55c01b9b60e5d415bbb89326c5.jpg" alt="">
       </button>
     </div>
     <div class="offset-1 col-3">
-      <button onclick="increment">SLAP<img id="slap"
+      <button onclick="slap()">
+        <p id="slap">SLAP</p><img
           src="https://www.joshuanava.biz/illustrating-battles/images/1833_16_140-drawn-closed-hand-with-slit-wrists.jpg"
           alt="">
       </button>
@@ -76,7 +71,7 @@
   </div>
 
 
-  </div>
+  </div> -->
   <script src="game.js"></script>
 </body>
 

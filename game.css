@@ -1,6 +1,6 @@
 body{
   background-color: rgb(48, 141, 45);
-  width: 100%;
+  width: 100%
 }
 
 #pow{
@@ -15,11 +15,11 @@ img{
 }
 
 
-#action hover{
+#action:hover{
   margin: 5rem;
-}
+} 
 
-button:hover{
+.button:hover{
   background-color: red;
 }
 
@@ -32,4 +32,3 @@ button:hover{
   padding: 20px;
   text-align: center;
 }
-
