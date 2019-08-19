@@ -2,12 +2,11 @@ let health = 100
 let game = 0
 
 function slap() {
-  if (health = 100) {
-    return 5
-  } else if (health <= 10)
-    return 2
-}else if (health)
+  let slap = 5
+  for (let i = 99; i < Number.length;)
+      
 }
+
 function hit() {
 
 }
@@ -16,6 +15,13 @@ function kick() {
 
 }
 
+function gamerOnehealth() {
+
+}
+
+function gamerTwwohealth() {
+
+}
 
 alert("health");
 
@@ -44,4 +50,3 @@ let attacksElem = document.getElementById('attacks')
 function draw() {
 
 }
-
